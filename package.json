@@ -1,42 +1,62 @@
 {
-  "name": "fca-horizon-remake",
-  "version": "1.7.0",
-  "description": "Facebook Chat Api Được Remake Bới Horizon Chống Get (NÂU) Và Pay Acc 🐧",
+  "name": "neha_khan",
+  "version": "20.0.7",
+  "description": "Facebook Chat Api For Messenger Bot",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "./node_modules/.bin/eslint **.js",
+    "lint": "eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
+  "author": "Neha Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c9rl9/c9rla/issues"
+  },
+  "homepage": "https://github.com/c9rl9/c9rla#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Anupx0/Fca-Horizon-Remake.git"
+    "url": "git://github.com/c9rl9/c9rl9.git"
   },
-  "keywords": [
-    "facebook",
-    "chat",
-    "api"
-  ],
-  "bugs": {
-    "url": "https://github.com/Anupx0/Fca-Horizon-Remake/issues"
-  },
-  "author": "Avery, David, Maude, Benjamin, Kanzu",
-  "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.11.0",
-    "cheerio": "^1.0.0-rc.10",
-    "https-proxy-agent": "^4.0.0",
-    "mqtt": "^4.2.8",
-    "npmlog": "^1.2.0",
-    "request": "^2.53.0",
-    "websocket-stream": "^5.5.0"
+    "aes-js": "latest",
+    "assert": "latest",
+    "axios": "^1.1.3",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "figlet": "^1.5.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "got": "^11.8.3",
+    "aliya-remake": "latest",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "lodash": "",
+    "mqtt": "latest",
+    "node-superfetch": "",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pm2": "latest",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "aliya-anup-database": "latest",
+    "totp-generator": "latest",
+    "uuid-apikey": "latest",
+    "websocket-stream": "latest"
   },
   "engines": {
-    "node": ">=10.x"
+    "node": ">=14.x <16.x"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "mocha": "^7.0.1",
-    "prettier": "^1.11.1"
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
   },
   "eslintConfig": {
     "env": {
@@ -63,5 +83,8 @@
         }
       ]
     }
-  }
+  },
+  "keywords": [
+    "Neha"
+  ]
 }
